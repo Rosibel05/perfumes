@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   height: 90px;
+   background: hwb(32 40% 17%);
+   position: fixed;
+   width: 100%;
+   z-index: 100;
+}
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 30px;
+
+}
+.logo a {
+    text-decoration: none;
+    color: #e9d19d;
+    text-transform: uppercase;
+    font-size: 20px;
+    background-image: url(Imagenes/Logo.jpg);
+}
+
+.navbar a {
+       display: block;
+       padding: 23px 20px;
+       color: hsl(0, 33%, 98%);
+       text-decoration: none;
+       text-transform:uppercase;
+       font-size: 20px;
+    }
+
+    .navbar a:hover{
+        background: #dbb98b;
+    }
+
+    .header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #7e4743;
+    border-bottom: 1px solid #ac7f5b;
+    }
+
+    .header {
+        height: 70vh !important;
+        background: url(.........) no-repeat center;
+        background-size: cover;
+    } 
+       
+     .imagenes-01 {
+        display: flex;
+        width: 300px;
+        height: 300px;
+        justify-content: end;
+     }  
+     .imagenes-02 {
+        width: 300px;
+        height: 300px;
+        justify-content: left;
+     }
+     .imagenes-03 {
+        width: 300px;
+        height: 300px;
+        justify-content: right;
+     }
+     .imagenes-04 {
+        width: 200px;
+        height: 200px;
+        justify-content: end;
+     }
+     .imagenes-05 {
+        width: 300px;
+        height: 300px;
+        justify-content: right;
+     }
+     .imagenes-06 {
+        width: 300px;
+        height: 300px;
+        justify-content: right;
+     }
+     .imagenes-07 {
+        width: 300px;
+        height: 300px;
+        justify-content: right;
+     }
+
+
+    .title {
+     margin-bottom: 40px;
+        font-size: 60px;
+        font-weight: 600;
+        text-transform: uppercase;
+
+    }
+      
+    p{
+        margin-bottom: 40px;
+        font-size: 18px;
+        color: rgb(67, 69, 70);
+    }
+
+    .btn {
+        display: inline-block;
+        margin-top: 15px;
+        padding: 10px 40x;
+        border: 2px solid #6d3531;
+        color: rgb(248, 243, 243);
+        text-decoration: none;
+        background: #7e4743;
+    }
+
+    .btn:hover {
+        background: none;
+    }
+    .btn-home {
+     display: flex;
+    }
+
+    .btn-home a {
+       margin: 0 10px;
+    }
+
+    .content {
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+    }
+
+    .sau {
+        padding: 30px;
+        background: #e4b26ccc;
+    }
+
+    .bbox-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .box-container .box {
+        height: 11rem;
+        width: 17rem;
+        background: #dab075;
+        text-align: center;
+        border-radius: 1rem;
+        box-shadow: 0 .3rem 5rem rgba(230, 153, 91, 0.938);
+    }
+
+     .box-container .box1 {
+        height: 3rem;
+        width: 3rem;
+        line-height: 3rem;
+        text-align: center;
+        border-radius: 50%;
+        color: #dbb98b;
+        background: #7e4743;
+        font-size: 2rem;
+        margin: 1rem 0;
+     }
+
+
+    .box-container .box h3 {
+        font-size: 20px;
+        color: #7e4743;
+    }
+
+  .box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+  }
+
+  .about {
+    background: #ac7f5b;
+  }
+
+  .price {
+    background: url(img/Categorías.jpg)no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+  }
+
+  
